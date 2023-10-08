@@ -1,0 +1,14 @@
+table{
+    width: 350px;
+    height:450px;
+}
+
+input{
+    width:80px;
+    height: 70px;
+}
+
+#display{
+    width:320px;
+    text-align: right;
+}

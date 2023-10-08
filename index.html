@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>calculator</title>
+    </head>
+</html>
+
+<body>
+    <!---formタグいるかも--->
+    <table border="5">
+        <tr><!---計算結果表示--->
+            <td colspan="4">
+             <input type="text" name="display" id="display" value="0"disabled>   
+            </td>
+        </tr>
+        
+        <tr>
+            <!---2行目--->
+            <td><input type="button" name="buttom" value="7" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="8" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="9" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="*" onclick="figure(this)"></td>
+            
+        </tr>
+        
+        <tr>
+            <!---3行目--->
+            <td><input type="button" name="buttom" value="4" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="5" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="6" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="/" onclick="figure(this)"></td>
+            
+        </tr>
+        
+        <tr>
+                <!---4行目--->
+            <td> <input type="button" name="buttom" value="1" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="2" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="3" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="-" onclick="figure(this)"></td>
+           
+        </tr>
+        
+        <tr>
+            <!---5行目--->
+            <td> <input type="button" name="buttom" value="0" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="AC" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="=" onclick="figure(this)"></td>
+            <td><input type="button" name="buttom" value="+" onclick="figure(this)"></td>
+            
+        </tr>
+    </table>
+     <script src="main.js"></script>
+</body>
